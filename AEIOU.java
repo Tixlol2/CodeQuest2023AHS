@@ -12,11 +12,11 @@ public class Main {
 
                 int total = 0;
 
-                System.out.println(letter_list[3]);
+                
 
                 for (String letter : letter_list) {
 
-                    System.out.println(letter);
+                    
 
 
                     switch(letter) {
@@ -35,9 +35,9 @@ public class Main {
                         case "u":
                             total = (total + 1);
                             break;
-                    
+
                     }
-                            
+
 
                 }
                 System.out.println(total);
