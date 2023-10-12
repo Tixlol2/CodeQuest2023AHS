@@ -24,7 +24,7 @@ public class Main {
 
                 }
 
-                if (my_speed < min_speed){
+                if (my_speed <= min_speed){
 
                     System.out.println("no ticket");
 
@@ -34,11 +34,11 @@ public class Main {
                     System.out.println("small ticket");
 
 
-                } else if (my_speed > max_speed) {
-                    
+                } else if (my_speed >= max_speed) {
+
                     System.out.println("big ticket");
-                    
-                    
+
+
                 }
 
 
