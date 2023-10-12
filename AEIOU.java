@@ -12,21 +12,35 @@ public class Main {
 
                 int total = 0;
 
+                System.out.println(letter_list[3]);
+
                 for (String letter : letter_list) {
 
-                    if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u") {
-
-                        total = (total + 1);
+                    System.out.println(letter);
 
 
+                    switch(letter) {
+                        case "a":
+                            total = (total + 1);
+                            break;
+                        case "e":
+                            total = (total + 1);
+                            break;
+                        case "i":
+                            total = (total + 1);
+                            break;
+                        case "o":
+                            total = (total + 1);
+                            break;
+                        case "u":
+                            total = (total + 1);
+                            break;
+                    
                     }
-
+                            
 
                 }
-
                 System.out.println(total);
-
-
             }
         }
     }
