@@ -14,7 +14,7 @@ public class Main {
 
                 if (cc == lbl){
 
-                    System.out.println("Cassowary Craft and Lead Balloons Ltd solds the same number of aircraft");
+                    System.out.println("Cassowary Craft and Lead Balloons Ltd sold the same number of aircraft");
 
 
                 } else if (cc > lbl) {
