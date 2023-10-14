@@ -29,6 +29,11 @@ public class Main {
 
                     System.out.println("Division");
 
+                } else if (num1 % num2 == num3) {
+
+                    System.out.println("Modulo");
+
+
                 }
 
 
