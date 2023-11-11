@@ -1,7 +1,7 @@
 //UNSOLVED
 
 import java.util.*;
-public class Main {
+public class antiAsteroidWeapon {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)){
             int testCases = Integer.parseInt(input.nextLine());
