@@ -23,18 +23,18 @@ public class fibonacci {
                 for (int i = 2; i <= n ; i++) {
 
                     int first_num = sequence.get(i - 1);
-                    System.out.println(sequence.get(i - 1));
+
 
                     int second_num = sequence.get(i);
-                    System.out.println(sequence.get(i));
+
 
                     sequence.add(first_num + second_num);
-                    System.out.println("heyy");
+
 
                 }
 
                 System.out.println(n + " = " + sequence.get(n-1));
-                System.out.println(sequence);
+
             }
 
         }
